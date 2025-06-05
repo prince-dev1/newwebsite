@@ -73,10 +73,6 @@ font-weight: bold;
   justify-content: center;
   overflow: hidden;
   width: 100%;           /* Add this line */
-  left: 50%;
-  right: 50%;
-  margin-left: -50vw;     /* Add these three lines to ensure full-bleed background */
-  margin-right: -50vw;
   box-sizing: border-box;
 }
 
@@ -85,11 +81,7 @@ font-weight: bold;
     padding: 4rem 0 3rem 0;
     min-height: 40vh;
     width: 100%;
-    margin-left: -50vw;
-    margin-right: -50vw;
-    left: 50vw;
-    right: 50vw;
-  }
+}
 }
 
 .hero::before {
@@ -204,7 +196,7 @@ margin-top: 2rem;
 margin-top: 1rem;
 font-size: 1.2rem;
 }
-/* Responsive adjustments for mobile screens */
+/* Responsive adjustments for mobile screens 
 @media (max-width: 767.98px) {
   section {
     padding: 2rem 0.5rem;
@@ -236,4 +228,4 @@ font-size: 1.2rem;
   form {
     padding: 0 0.5rem;
   }
-}
+}*/
